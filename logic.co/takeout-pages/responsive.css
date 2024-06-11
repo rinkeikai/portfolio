@@ -1,0 +1,34 @@
+@media (max-width: 2500px){
+  .responsive-icon{
+    display: none;
+}
+/* タブレット向けレイアウト */
+@media (max-width: 1025px) {
+
+}
+@media (max-width: 1000px) {
+  .shop h2{
+    font-size:20px;
+  }
+
+}
+/* スマホ向けレイアウト */
+
+@media (max-width: 670px) {
+  .root{
+    font-size: 15px;
+  }
+  .root p{
+    margin-bottom: 0;
+  }
+  footer{
+    height: 50px;
+  }
+  /*メニュー*/
+  .menu p{
+    font-size: 15px;
+  }
+  br{
+    display: none;
+  }
+}

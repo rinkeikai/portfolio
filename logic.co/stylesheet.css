@@ -1,0 +1,591 @@
+*{
+  box-sizing:border-box;
+}
+html{
+  height:100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+
+  height:100%;
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear{
+  clear:left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(top-photo.png);
+  background-size:cover;
+  color: black;
+  text-align:center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 60px;
+  letter-spacing: 5px;
+  -webkit-text-stroke:0.5px #696969;
+  font-family: "Risthi FREE DEMO";
+  }
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.top-title{
+  margin-bottom: 10px;
+}
+
+.sub-title{
+  margin-top:20px;
+  opacity:0.7;
+  letter-spacing:3px;
+  text-align:center;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:4px;
+  box-shadow: 3px 4px #696969;
+}
+
+.btn:active{
+  position:relative;
+  top:4px;
+  left:3px;
+  box-shadow: none;
+}
+
+
+.btn:hover{
+  opacity:1;
+}
+
+
+.instagram {
+  background-color: #c71585;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin-top: 50px ;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+
+}
+
+header{
+  height:65px;
+  width:100%;
+   background-color: rgba(255, 255, 255, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo{
+  width:280px;
+  opacity: 0.6;
+  padding-left:15px;
+  padding-top: 20px;
+}
+.logo:hover{
+  opacity:0.7;
+}
+
+
+.menu-icon:hover{
+  opacity: 0.7;
+}
+.menu-icon{
+  color: black;
+  opacity:0.6;
+  float: right;
+  font-size: 45px;
+  margin: 10px 25px 10px 0;
+  cursor: pointer;
+}
+.menus a:hover{
+  color:red;
+}
+
+.fab{
+  margin-right: 5px;
+}
+
+.menus{
+  width: 110px;
+  height: auto;
+  display:none;
+  background-color:#ffffff;
+  margin-right: 10px;
+  margin-top:20px;
+  float:right;
+  opacity: 0.7;
+  z-index: 100;
+}
+.menus ul{
+  padding-left:25px;
+}
+.menu-btn{
+  color:black;
+  font-weight:bold;
+  font-size:15px;
+  cursor: pointer;
+  cursor:hand;
+  text-align: center;
+  margin:0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+.close{
+  font-size: 15px;
+  margin-bottom: 5px 0;
+}
+.close:hover{
+  color:red;
+}
+.header-right{
+  float:right;
+  display:block;
+}
+/*conceptのCSS*/
+.concept h3{
+  margin-top: 10px;
+}
+.concept p{
+  font-family: "YuMincho";
+}
+.concept-wrapper{
+  padding-bottom:80px;
+  padding-top:10px;
+  background-color:#f7f7f7;
+  text-align: center;
+}
+.heading{
+  padding:60px 0 30px 0;
+  color:#5f5d60;
+}
+.heading h2{
+  font-weight:normal;
+}
+/*MenberのCSS*/
+.heading {
+  padding:0;
+  color: #5f5d60;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+.menber-wrapper{
+  background-color:#f7f7f7;
+  border-top: solid 0.5px;
+  height: auto;
+  padding-bottom: 80px;
+}
+/*おとな絵本*/
+.pic-top-wrapper {
+  height: auto;
+  padding: 180px 0 100px 0;
+  background-image: url(picture-books/top-img.png);
+  background-size: cover;
+  color: black;
+  text-align:center;
+}
+
+.pic-top-wrapper h1 {
+  opacity: 0.7;
+  writing-mode:vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  font-size: 60px;
+  letter-spacing: 5px;
+  -webkit-text-stroke:0.5px #696969;
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  }
+}
+.concept-wrappe{
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+.title-wrapper{
+  text-align: center;
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  padding-bottom:80px;
+  padding-top:10px;
+}
+.title-wrapper h2{
+  font-size: 35px;
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
+.title-wrapper h3{
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
+
+/*footerのCSS*/
+footer{
+  height:30px;
+  padding-top: 0;
+  width: 100%;
+}
+footer img{
+  width:auto;
+  margin-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+footer p{
+  float: right;
+  padding-top: 15px;
+  color:#696969;
+  font-family:'Gulim';
+  margin-right: 10px;
+}
+.red{
+  color:red;
+}
+/*profile*/
+.prof-sns{
+  margin-top: 15px;
+}
+.prof-sns img{
+  padding: 0 5px;
+}
+.prof-clear{
+  clear:left;
+  height: 100px;
+}
+.menber-container{
+  height: auto;
+  width: 100%;
+  background-color:#f7f7f7;
+  background-size:cover;
+  padding: 30px 0 100px 0;
+  color: black;
+  text-align:center;
+}
+/*Kyosuke-profile*/
+.profile-1{
+  margin-top: 30px;
+}
+.prof1-img{
+  width: 40%;
+  float: left;
+  margin-bottom: 50px;
+  margin: 50px 0;
+}
+.prof1-text{
+  width: 60%;
+  display: inline-block;
+  margin-top: 20px;
+  float: right;
+}
+.prof1-text h2{
+  font-family: "HiraMinPro-W6";
+  font-size: 25px;
+}
+.prof1-text p{
+  margin: 0;
+  font-family: "YuMincho";
+}
+/*大智プロフィール*/
+.prof2-text{
+  width: 60%;
+  float: left;
+  margin-top: 20px;
+}
+.prof2-img{
+  width: 40%;
+  margin-bottom: 50px;
+  margin: 50px 0;
+  display: inline-block;
+}
+.prof2-text h2{
+  font-family: "HiraMinPro-W6";
+  font-size: 25px;
+}
+.prof2-text p{
+  margin: 0;
+  font-family: "YuMincho";
+}
+/*yukikoさんプロフィール*/
+.prof3-img{
+  width: 40%;
+  float: left;
+  margin-bottom: 50px;
+  margin: 50px 0;
+}
+.prof3-text{
+  width: 60%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.prof3-text h2{
+  font-family: "HiraMinPro-W6";
+  font-size: 25px;
+}
+.prof3-text p{
+  margin: 0;
+  font-family: "YuMincho";
+}
+/*contact*/
+.mail:hover{
+  opacity: 0.6;
+}
+.setting-modal{
+  position: fixed;
+  background-color: rgba(230,236,240,1);
+  z-index: 100;
+  top: 40%;
+  left: 20%;
+  padding: 20px 0 20px;
+  border-radius: 10px;
+  width: 60%;
+  height:auto;
+  text-align: center;
+  font-family: "YuMincho";
+}
+.contact-form{
+  padding-top:100px;
+  text-align: center;
+  background-color:#f7f7f7;
+}
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+/* contact-submitのCSS */
+.contact-submit {
+  background-color:#dee7ec;
+  color:#889eab;
+}
+/* Worksコンテンツ*/
+.works-wrapper{
+  background-color:#f7f7f7;
+  border-top: solid 0.5px;
+  height: auto;
+  padding-bottom: 30px;
+}
+.works-wrapper h2{
+  padding:0;
+  color: #5f5d60;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+.works-contaner{
+  height: auto;
+  width: 100%;
+  background-color:#f7f7f7;
+  background-size:cover;
+  padding: 30px 0 80px 0;
+  color: black;
+  text-align:center;
+}
+.works-category{
+  margin-top: 50px;
+}
+
+.works{
+  width: 30%;
+  display: inline-block;
+}
+/*おとな絵本*/
+.pic-top-wrapper {
+  height: auto;
+  padding: 180px 0 100px 0;
+  background-image: url(picture-books/top-img.png);
+  background-size: cover;
+  color: black;
+  text-align:center;
+}
+
+.pic-top-wrapper h1 {
+  opacity: 0.7;
+  writing-mode:vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  font-size: 60px;
+  letter-spacing: 5px;
+  -webkit-text-stroke:0.5px #696969;
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  }
+}
+.concept-wrappe{
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+.title-wrapper{
+  text-align: center;
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  padding-bottom:80px;
+  padding-top:10px;
+}
+.title-wrapper h2{
+  font-size: 35px;
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
+.title-wrapper h3{
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
+.books-wrapper{
+  padding:20px;
+  height: 500px;
+}
+.books-wrapper h3{
+  text-align: center;
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  font-size: 25px;
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+}
+.books{
+  float: left;
+}
+.books-title{
+  font-size: 20px;
+  margin:10px ;
+}
+.books a{
+  font-size: 15px;
+}
+.creater{
+  font-size: 10px;
+  letter-spacing: 5px;
+  margin: 5px 0;
+}
+/*特設ページ*/
+.tokusetu-wrapper{
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-size:cover;
+  padding: 50px 0 90px 0;
+  color: black;
+}
+.tokusetu-container{
+  margin: 10px 30px;
+}
+.tokusetu-btn {
+  padding: 20px 40px;
+  margin: 30px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:4px;
+  box-shadow: 3px 4px #696969;
+  background-color: #ff00cc;
+}
+.tokusetu-btn:active{
+  position:relative;
+  top:4px;
+  left:3px;
+  box-shadow: none;
+}
+.tokusetu-btn:hover{
+  opacity:1;
+}
+.back-areas:hover{
+  opacity:0.8;
+}
+.back-areas{
+  text-align: center;
+  font-size:24px;
+  font-weight: bold;
+}
+/*店舗ロゴリンク*/
+.shops{
+  margin: 50px 5px;
+  height: 130px;
+}
+.shop-logo{
+  float: left;
+  display: inline-block;
+  height: 150px;
+}
+.shop-logo p{
+  margin-top: 5px;
+}
+/*KAKERU*/
+.kakeru-wrapper{
+  padding-bottom:80px;
+  padding-top:50px;
+  background-color:#f7f7f7;
+  text-align: center;
+  font-family: "YuMincho";
+}
+.kakeru-wrapper img{
+  width: 60%;
+}
+.kakeru-wrapper h2{
+  color: black;
+  font-weight: bold;
+}
+.kakeru-concept h3{
+  font-weight: normal;
+}
+.kakeru-btn {
+  padding: 20px 40px;
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:4px;
+  box-shadow: 3px 4px #696969;
+  background-color: black;
+}
+.kakeru-btn:active{
+  position:relative;
+  top:4px;
+  left:3px;
+  box-shadow: none;
+}
+.kakeru-btn:hover{
+  opacity:1;
+}
